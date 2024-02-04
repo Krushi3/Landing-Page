@@ -1,0 +1,133 @@
+*{padding:0%  ; margin:0%; box-sizing:border-box; font-family: sans-serif; }
+header{
+    width: 100%;
+    height:100vh;
+    background: url(HealthyDiet.jpg);
+   
+    border-radius: 50%;
+    background-size: 45% 80%;
+    background-repeat: no-repeat;
+    background-position:bottom left ;
+   
+}
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 0px 70px;
+    color: black;
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 5px rgb(39, 35, 35);
+}
+.logo{
+    font-weight:bold;
+    font-size:1.5cm;
+    letter-spacing: 2px;
+
+
+}
+.logo span{
+    color: brown;
+}
+.menu a{
+    text-decoration: none;
+    color:wheat;
+    padding: 10px 20px;
+    background-color: brown;
+    border-radius: 8px;
+}
+.menu a:last-child{
+    background: brown;
+    color: white;
+    border-radius: 8px;
+}
+.h-text{
+    position:absolute;
+    top:20%;
+    right: 0px;
+    /* left:6%; */
+    padding: 100px;
+}
+.h-text p{
+    color: #262626;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+}
+.h-text h1{
+    font-size: 4em;
+    line-height:1.5em;
+
+}
+.h-text h2{
+    font-size:4em;
+    margin-bottom :0.5em;
+}
+#order{
+    text-decoration: none;
+    color: white;
+    background: brown;
+    border-radius: 8px;
+    padding: 10px 20px ;
+
+ }
+ #dis{
+    text-decoration: none;
+    color: white;
+    background: brown;
+    border-radius: 8px;
+    padding: 10px 20px ;
+
+ }
+ .om h1{
+    width:100%;
+    height:100%;
+    font-size: 26px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    align-items: center;
+ }   
+ body{
+    background-color: white;
+ }
+ .rectangle{
+    height: 200px;
+    width: 2000px;
+background-color: brown;
+font-size: 30px;
+position: relative;
+
+ }
+.text{
+    padding: 40px;
+    
+}
+.map{
+    width: 500px;
+    height: 500px;
+}
+.workingnew{
+    width: 500px;
+    height: 500px;
+
+}
+.delivery{
+    width: 500px;
+    height: 500px;
+
+}
+.a1{
+    font-size: 40px;
+}
+.new{
+    position: relative;
+    left:450px;
+}
+.new1{
+    position: relative;
+    left:380px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
